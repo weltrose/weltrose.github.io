@@ -1,0 +1,1473 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>亚韩产品_亚韩美妆护肤产品线_亚韩彩妆与洗护系列</title>
+<meta name="description" content="亚韩产品是面向亚洲肤质研发的护肤、彩妆与洗护产品体系，涵盖水乳精华、底妆唇妆、洁面洗发等方向。本页整理产品线分类、新品动态、成分解析、选购路径与用户真实反馈，适合关注成分与性价比的护肤人群参考。">
+<meta name="keywords" content="亚韩水乳套装,亚韩彩妆系列,亚韩洗护产品,亚韩成分解析,亚洲肤质护肤">
+<style>
+:root{
+  --brand:#0f6e63;
+  --brand-deep:#0a4f47;
+  --brand-soft:#e6f3f0;
+  --accent:#d97742;
+  --accent-soft:#fbeade;
+  --ink:#1b2422;
+  --ink-2:#3d4a47;
+  --ink-3:#6b7a76;
+  --line:#dfe7e4;
+  --bg:#f6f8f7;
+  --panel:#ffffff;
+  --radius-s:6px;
+  --radius-m:10px;
+  --radius-l:16px;
+  --shadow-s:0 1px 2px rgba(16,40,36,.06);
+  --shadow-m:0 6px 20px rgba(16,40,36,.08);
+  --header-h:112px;
+  --maxw:1320px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+  font-size:15px;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700}
+p{margin:0 0 12px}
+ul,ol{margin:0 0 12px;padding-left:20px}
+li{margin-bottom:6px}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:4px}
+
+/* ============ 吸顶区 ============ */
+.sticky-wrap{
+  position:sticky;top:0;z-index:60;
+}
+.notice-bar{
+  background:linear-gradient(90deg,var(--brand-deep),var(--brand));
+  color:#eaf6f3;
+  font-size:13px;
+  padding:7px 20px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  overflow:hidden;
+}
+.notice-bar .tag{
+  flex:none;
+  background:var(--accent);
+  color:#fff;
+  font-size:11px;
+  padding:1px 8px;
+  border-radius:20px;
+  letter-spacing:.5px;
+}
+.notice-bar .track{
+  flex:1;
+  min-width:0;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.notice-bar a{text-decoration:underline;text-underline-offset:3px;color:#fff}
+
+.site-header{
+  background:rgba(255,255,255,.96);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+  box-shadow:var(--shadow-s);
+}
+.header-inner{
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:10px 20px;
+  display:flex;
+  align-items:center;
+  gap:24px;
+  flex-wrap:wrap;
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex:none;
+}
+.brand-mark{
+  width:40px;height:40px;
+  flex:none;
+}
+.brand-text b{
+  display:block;
+  font-size:19px;
+  letter-spacing:1px;
+  color:var(--brand-deep);
+}
+.brand-text span{
+  display:block;
+  font-size:11px;
+  color:var(--ink-3);
+  letter-spacing:2px;
+}
+.main-nav{
+  flex:1;
+  min-width:0;
+}
+.main-nav ul{
+  display:flex;
+  gap:4px;
+  list-style:none;
+  margin:0;padding:0;
+  flex-wrap:wrap;
+}
+.main-nav a{
+  display:block;
+  padding:6px 11px;
+  border-radius:var(--radius-s);
+  font-size:14px;
+  color:var(--ink-2);
+  transition:.15s;
+}
+.main-nav a:hover{background:var(--brand-soft);color:var(--brand-deep)}
+.header-tools{display:flex;align-items:center;gap:10px;flex:none}
+.search-box{
+  display:flex;
+  align-items:center;
+  border:1px solid var(--line);
+  border-radius:24px;
+  overflow:hidden;
+  background:#fff;
+}
+.search-box input{
+  border:0;
+  padding:7px 12px;
+  font-size:13px;
+  width:150px;
+  outline:none;
+  background:transparent;
+  color:var(--ink);
+}
+.search-box button{
+  border:0;
+  background:var(--brand);
+  color:#fff;
+  padding:7px 14px;
+  font-size:13px;
+  cursor:pointer;
+}
+.search-box button:hover{background:var(--brand-deep)}
+.btn-cta{
+  background:var(--accent);
+  color:#fff;
+  padding:8px 16px;
+  border-radius:24px;
+  font-size:13.5px;
+  font-weight:600;
+  white-space:nowrap;
+}
+.btn-cta:hover{background:#c26434}
+
+/* ============ 首屏 ============ */
+.hero{
+  position:relative;
+  background:
+    radial-gradient(900px 400px at 88% -10%, rgba(15,110,99,.16), transparent 70%),
+    radial-gradient(600px 300px at 4% 110%, rgba(217,119,66,.12), transparent 70%),
+    #fff;
+  border-bottom:1px solid var(--line);
+  overflow:hidden;
+}
+.hero-inner{
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:46px 20px 52px;
+  display:grid;
+  grid-template-columns:1.15fr .85fr;
+  gap:44px;
+  align-items:center;
+}
+.hero-kicker{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  font-size:12.5px;
+  letter-spacing:1.5px;
+  color:var(--brand);
+  background:var(--brand-soft);
+  padding:4px 12px;
+  border-radius:20px;
+  margin-bottom:16px;
+}
+.hero h1{
+  font-size:clamp(30px,4vw,46px);
+  letter-spacing:2px;
+  color:var(--brand-deep);
+  margin-bottom:16px;
+}
+.hero-lead{
+  font-size:16px;
+  color:var(--ink-2);
+  max-width:520px;
+  margin-bottom:24px;
+}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+.btn-primary{
+  background:var(--brand);
+  color:#fff;
+  padding:11px 26px;
+  border-radius:var(--radius-m);
+  font-weight:600;
+  font-size:15px;
+  box-shadow:var(--shadow-m);
+}
+.btn-primary:hover{background:var(--brand-deep)}
+.btn-ghost{
+  border:1.5px solid var(--brand);
+  color:var(--brand);
+  padding:10px 24px;
+  border-radius:var(--radius-m);
+  font-weight:600;
+  font-size:15px;
+}
+.btn-ghost:hover{background:var(--brand-soft)}
+.hero-stats{
+  display:flex;
+  gap:30px;
+  flex-wrap:wrap;
+  border-top:1px dashed var(--line);
+  padding-top:18px;
+}
+.hero-stats div b{
+  display:block;
+  font-size:22px;
+  color:var(--brand-deep);
+  line-height:1.2;
+}
+.hero-stats div span{font-size:12.5px;color:var(--ink-3)}
+.hero-visual{
+  position:relative;
+  display:flex;
+  justify-content:center;
+}
+.hero-visual svg{width:100%;max-width:400px;height:auto}
+
+/* ============ 布局 ============ */
+.layout{
+  max-width:var(--maxw);
+  margin:0 auto;
+  padding:34px 20px 60px;
+  display:grid;
+  grid-template-columns:180px minmax(0,1fr) 280px;
+  gap:32px;
+  align-items:start;
+}
+.channel-col{position:sticky;top:calc(var(--header-h) + 12px)}
+.channel-box{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:var(--radius-m);
+  padding:14px 12px;
+  box-shadow:var(--shadow-s);
+}
+.channel-box h2{
+  font-size:13px;
+  letter-spacing:2px;
+  color:var(--ink-3);
+  font-weight:600;
+  padding:0 8px 10px;
+  border-bottom:1px solid var(--line);
+  margin-bottom:8px;
+}
+.channel-box ul{list-style:none;margin:0;padding:0}
+.channel-box a{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:7px 8px;
+  border-radius:var(--radius-s);
+  font-size:14px;
+  color:var(--ink-2);
+}
+.channel-box a:hover{background:var(--brand-soft);color:var(--brand-deep)}
+.channel-box a small{color:var(--ink-3);font-size:11px}
+
+.main-col{min-width:0}
+.side-col{display:flex;flex-direction:column;gap:22px;position:sticky;top:calc(var(--header-h) + 12px)}
+
+/* ============ 板块通用 ============ */
+.section{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:var(--radius-l);
+  padding:26px 26px 28px;
+  margin-bottom:26px;
+  box-shadow:var(--shadow-s);
+  scroll-margin-top:calc(var(--header-h) + 16px);
+}
+.section-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:16px;
+  margin-bottom:18px;
+  flex-wrap:wrap;
+}
+.section-head h2{
+  font-size:21px;
+  color:var(--brand-deep);
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.section-head h2::before{
+  content:"";
+  width:5px;height:20px;
+  background:var(--accent);
+  border-radius:3px;
+  display:inline-block;
+}
+.section-head .desc{font-size:13px;color:var(--ink-3)}
+.section-head .more{font-size:13px;color:var(--brand);font-weight:600;white-space:nowrap}
+
+/* 概览 */
+.overview-text{color:var(--ink-2);font-size:14.5px}
+.overview-text p{margin-bottom:12px}
+.overview-text strong{color:var(--brand-deep)}
+
+/* 卡片网格 */
+.card-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+  gap:18px;
+}
+.card{
+  border:1px solid var(--line);
+  border-radius:var(--radius-m);
+  overflow:hidden;
+  background:#fff;
+  display:flex;
+  flex-direction:column;
+  transition:.18s;
+}
+.card:hover{box-shadow:var(--shadow-m);transform:translateY(-2px)}
+.card img{width:100%;height:150px;object-fit:cover}
+.card-body{padding:13px 14px 15px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card-body h3{font-size:15.5px;color:var(--ink)}
+.card-tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag-pill{
+  font-size:11px;
+  padding:1.5px 8px;
+  border-radius:20px;
+  background:var(--brand-soft);
+  color:var(--brand-deep);
+  white-space:nowrap;
+}
+.tag-pill.alt{background:var(--accent-soft);color:#a1522a}
+.card-body p{font-size:13px;color:var(--ink-3);margin:0;line-height:1.65;flex:1}
+.card-meta{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size:12px;
+  color:var(--ink-3);
+  border-top:1px dashed var(--line);
+  padding-top:8px;
+}
+.score{color:var(--accent);font-weight:700}
+
+/* 动态列表 */
+.update-list{list-style:none;margin:0;padding:0}
+.update-list li{
+  display:flex;
+  gap:14px;
+  padding:11px 0;
+  border-bottom:1px dashed var(--line);
+  align-items:baseline;
+}
+.update-list li:last-child{border-bottom:0}
+.update-list time{
+  flex:none;
+  width:76px;
+  font-size:12.5px;
+  color:var(--brand);
+  font-weight:600;
+}
+.update-list b{font-size:14.5px;color:var(--ink);font-weight:600}
+.update-list span{font-size:13.5px;color:var(--ink-3)}
+
+/* 分类 */
+.cat-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+  gap:12px;
+}
+.cat-item{
+  border:1px solid var(--line);
+  border-radius:var(--radius-m);
+  padding:14px 14px;
+  background:linear-gradient(180deg,#fff,#fafcfb);
+  transition:.15s;
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+}
+.cat-item:hover{border-color:var(--brand);background:var(--brand-soft)}
+.cat-item b{font-size:14.5px;color:var(--brand-deep)}
+.cat-item span{font-size:12px;color:var(--ink-3)}
+
+/* 深度解析 */
+.article-body h3{
+  font-size:17px;
+  color:var(--brand-deep);
+  margin:22px 0 10px;
+  padding-left:12px;
+  border-left:4px solid var(--accent);
+}
+.article-body h3:first-child{margin-top:0}
+.article-body p{font-size:14.5px;color:var(--ink-2)}
+.article-body ul{padding-left:22px}
+.article-body li{font-size:14.5px;color:var(--ink-2)}
+.compare{
+  width:100%;
+  border-collapse:collapse;
+  margin:14px 0 18px;
+  font-size:13.5px;
+}
+.compare th,.compare td{
+  border:1px solid var(--line);
+  padding:9px 11px;
+  text-align:left;
+  vertical-align:top;
+}
+.compare th{background:var(--brand-soft);color:var(--brand-deep);font-weight:600;white-space:nowrap}
+.compare td{color:var(--ink-2)}
+
+/* 步骤 */
+.steps{list-style:none;margin:0;padding:0;counter-reset:step}
+.steps li{
+  counter-increment:step;
+  position:relative;
+  padding:12px 0 12px 56px;
+  border-bottom:1px dashed var(--line);
+}
+.steps li:last-child{border-bottom:0}
+.steps li::before{
+  content:counter(step);
+  position:absolute;
+  left:0;top:12px;
+  width:36px;height:36px;
+  background:var(--brand);
+  color:#fff;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  font-size:15px;
+}
+.steps b{display:block;font-size:15px;color:var(--ink);margin-bottom:2px}
+.steps span{font-size:13.5px;color:var(--ink-3)}
+
+/* FAQ */
+.faq-list details{
+  border:1px solid var(--line);
+  border-radius:var(--radius-m);
+  margin-bottom:10px;
+  background:#fff;
+  overflow:hidden;
+}
+.faq-list summary{
+  cursor:pointer;
+  padding:13px 16px;
+  font-size:14.5px;
+  font-weight:600;
+  color:var(--ink);
+  list-style:none;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary::after{
+  content:"+";
+  color:var(--brand);
+  font-size:20px;
+  font-weight:400;
+  line-height:1;
+}
+.faq-list details[open] summary::after{content:"–"}
+.faq-list details[open] summary{background:var(--brand-soft)}
+.faq-list .answer{
+  padding:4px 16px 15px;
+  font-size:13.8px;
+  color:var(--ink-2);
+}
+
+/* 评论 */
+.comment-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.comment{
+  background:#fafcfb;
+  border:1px solid var(--line);
+  border-radius:var(--radius-m);
+  padding:13px 15px;
+}
+.comment-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.comment-head b{font-size:13.5px;color:var(--brand-deep)}
+.comment-head time{font-size:11.5px;color:var(--ink-3)}
+.comment p{font-size:13.3px;color:var(--ink-2);margin:0}
+.comment .item{font-size:12px;color:var(--accent);margin-top:6px;display:block}
+
+/* 资讯 */
+.news-list{list-style:none;margin:0;padding:0}
+.news-list li{
+  display:grid;
+  grid-template-columns:96px 1fr;
+  gap:16px;
+  padding:14px 0;
+  border-bottom:1px dashed var(--line);
+}
+.news-list li:last-child{border-bottom:0}
+.news-list img{width:96px;height:72px;object-fit:cover;border-radius:var(--radius-s)}
+.news-list b{font-size:14.5px;display:block;margin-bottom:3px;color:var(--ink)}
+.news-list p{font-size:13px;color:var(--ink-3);margin:0}
+.news-list time{font-size:12px;color:var(--brand);font-weight:600;display:inline-block;margin-bottom:2px}
+
+/* 推荐标签 */
+.tag-index{display:flex;flex-wrap:wrap;gap:10px}
+.tag-index a{
+  border:1px solid var(--line);
+  padding:7px 14px;
+  border-radius:24px;
+  font-size:13.5px;
+  color:var(--ink-2);
+  background:#fff;
+  transition:.15s;
+}
+.tag-index a:hover{background:var(--brand);color:#fff;border-color:var(--brand)}
+
+/* 榜单 */
+.rank-list{list-style:none;margin:0;padding:0;counter-reset:rank}
+.rank-list li{
+  counter-increment:rank;
+  display:flex;
+  gap:12px;
+  padding:11px 0;
+  border-bottom:1px dashed var(--line);
+  align-items:flex-start;
+}
+.rank-list li:last-child{border-bottom:0}
+.rank-list li::before{
+  content:counter(rank);
+  flex:none;
+  width:24px;height:24px;
+  background:var(--brand-soft);
+  color:var(--brand-deep);
+  border-radius:var(--radius-s);
+  display:flex;align-items:center;justify-content:center;
+  font-size:12.5px;font-weight:700;
+  margin-top:2px;
+}
+.rank-list li:nth-child(-n+3)::before{background:var(--accent);color:#fff}
+.rank-list b{font-size:14px;display:block}
+.rank-list span{font-size:12.5px;color:var(--ink-3)}
+
+/* 侧栏 */
+.side-card{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:var(--radius-l);
+  padding:18px 18px 20px;
+  box-shadow:var(--shadow-s);
+}
+.side-card h2{
+  font-size:15px;
+  color:var(--brand-deep);
+  margin-bottom:12px;
+  padding-bottom:9px;
+  border-bottom:1px solid var(--line);
+  display:flex;align-items:center;gap:8px;
+}
+.side-card h2::before{
+  content:"";width:4px;height:15px;background:var(--accent);border-radius:2px;
+}
+.side-list{list-style:none;margin:0;padding:0}
+.side-list li{
+  padding:8px 0;
+  border-bottom:1px dashed var(--line);
+  font-size:13.5px;
+}
+.side-list li:last-child{border-bottom:0}
+.side-list a{display:flex;justify-content:space-between;gap:8px;color:var(--ink-2)}
+.side-list a:hover{color:var(--brand)}
+.side-list small{color:var(--ink-3);font-size:11.5px;flex:none}
+.side-note{font-size:12.5px;color:var(--ink-3);line-height:1.7}
+
+/* 搜索无结果 */
+.no-result{
+  display:none;
+  padding:18px;
+  text-align:center;
+  color:var(--ink-3);
+  font-size:13.5px;
+  border:1px dashed var(--line);
+  border-radius:var(--radius-m);
+  margin-top:14px;
+}
+.no-result.show{display:block}
+
+/* 页尾 */
+.site-footer{
+  background:var(--brand-deep);
+  color:#cfe3df;
+  padding:44px 20px 26px;
+  margin-top:20px;
+}
+.footer-inner{max-width:var(--maxw);margin:0 auto}
+.footer-top{
+  display:grid;
+  grid-template-columns:1.4fr repeat(3,1fr);
+  gap:34px;
+  padding-bottom:28px;
+  border-bottom:1px solid rgba(255,255,255,.16);
+}
+.footer-brand b{font-size:19px;color:#fff;letter-spacing:1px}
+.footer-brand p{font-size:13px;margin-top:10px;line-height:1.8;color:#a9c6c0}
+.footer-col h3{font-size:13.5px;color:#fff;margin-bottom:12px;letter-spacing:1px}
+.footer-col ul{list-style:none;margin:0;padding:0}
+.footer-col li{margin-bottom:7px}
+.footer-col a{font-size:13px;color:#a9c6c0}
+.footer-col a:hover{color:#fff}
+.footer-bottom{
+  padding-top:18px;
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  flex-wrap:wrap;
+  font-size:12px;
+  color:#8fada7;
+}
+
+/* ============ 响应式 ============ */
+@media (max-width:1024px){
+  .layout{grid-template-columns:minmax(0,1fr) 280px}
+  .channel-col{display:none}
+  .hero-inner{grid-template-columns:1fr;gap:30px}
+  .hero-visual{order:-1}
+  .hero-visual svg{max-width:320px}
+  .channel-mobile{
+    display:flex;
+    gap:8px;
+    overflow-x:auto;
+    padding:10px 20px;
+    background:#fff;
+    border-bottom:1px solid var(--line);
+  }
+  .channel-mobile a{
+    flex:none;
+    font-size:13px;
+    padding:5px 13px;
+    border:1px solid var(--line);
+    border-radius:20px;
+    color:var(--ink-2);
+    white-space:nowrap;
+  }
+  .channel-mobile a:hover{background:var(--brand-soft);color:var(--brand-deep)}
+}
+@media (min-width:1025px){
+  .channel-mobile{display:none}
+}
+@media (max-width:740px){
+  .layout{grid-template-columns:1fr;gap:22px;padding:22px 14px 44px}
+  .side-col{position:static}
+  .header-inner{padding:10px 14px;gap:12px}
+  .main-nav{order:3;flex-basis:100%}
+  .main-nav ul{overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px}
+  .main-nav a{white-space:nowrap;font-size:13px}
+  .search-box input{width:110px}
+  .section{padding:20px 16px 22px;border-radius:var(--radius-m)}
+  .hero-inner{padding:30px 14px 36px}
+  .hero-stats{gap:20px}
+  .news-list li{grid-template-columns:76px 1fr;gap:12px}
+  .news-list img{width:76px;height:58px}
+  .update-list li{flex-wrap:wrap;gap:6px}
+  .update-list time{width:auto}
+  .footer-top{grid-template-columns:1fr 1fr;gap:24px}
+  .comment-list{grid-template-columns:1fr}
+}
+@media (max-width:420px){
+  .footer-top{grid-template-columns:1fr}
+  .header-tools .btn-cta{display:none}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告 + 页头 -->
+<div class="sticky-wrap">
+  <div class="notice-bar">
+    <span class="tag">新品</span>
+    <div class="track">
+      11 月 25 日上新：亚韩水乳套装「青禾Ⅲ代」全系换新配方，同期上架 6 款彩妆补色，<a href="/#updates">查看今日更新</a>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/#top" aria-label="亚韩产品 首页">
+        <svg class="brand-mark" viewBox="0 0 48 48" role="img" aria-label="亚韩产品图形标志">
+          <defs>
+            <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#0f6e63"/>
+              <stop offset="1" stop-color="#0a4f47"/>
+            </linearGradient>
+          </defs>
+          <rect x="2" y="2" width="44" height="44" rx="13" fill="url(#bg1)"/>
+          <path d="M13 33c4-11 8-16 11-16s4 4 5 8 3 8 6 8" fill="none" stroke="#eaf6f3" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="34" cy="15" r="3.6" fill="#d97742"/>
+        </svg>
+        <span class="brand-text">
+          <b>亚韩产品</b>
+          <span>ASIA-KOREA LAB</span>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <ul>
+          <li><a href="/#overview">产品概览</a></li>
+          <li><a href="/#featured">精选推荐</a></li>
+          <li><a href="/#updates">今日更新</a></li>
+          <li><a href="/#categories">产品分类</a></li>
+          <li><a href="/#deepdive">成分解析</a></li>
+          <li><a href="/#guide">选购指南</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#comments">用户反馈</a></li>
+        </ul>
+      </nav>
+      <div class="header-tools">
+        <form class="search-box" role="search" onsubmit="return doSearch(event)">
+          <input type="search" id="searchInput" placeholder="搜索产品/成分" aria-label="站内搜索产品与成分">
+          <button type="submit">查找</button>
+        </form>
+        <a class="btn-cta" href="/#featured">新品目录</a>
+      </div>
+    </div>
+  </header>
+</div>
+
+<!-- 首屏 -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div>
+      <span class="hero-kicker">◆ 亚洲肤质研发 · 2026 秋冬目录</span>
+      <h1>亚韩产品</h1>
+      <p class="hero-lead">
+        面向亚洲肤质研发的完整产品体系：护肤线覆盖洁面、水乳、精华、面霜与防晒，彩妆线覆盖底妆、唇妆与眼妆，洗护线覆盖洗发、护发与身体护理。全线共 68 个在售单品，按肤质、功效与价位分层，方便按需筛选。
+      </p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="/#featured">浏览精选单品</a>
+        <a class="btn-ghost" href="/#deepdive">看成分解析</a>
+      </div>
+      <div class="hero-stats">
+        <div><b>68</b><span>在售单品</span></div>
+        <div><b>9</b><span>产品分类</span></div>
+        <div><b>2026-11-25</b><span>最近更新</span></div>
+        <div><b>4.6</b><span>综合口碑</span></div>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 400 340" role="img" aria-label="亚韩产品护肤与彩妆组合插画">
+        <defs>
+          <linearGradient id="bottle" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#0f6e63"/>
+            <stop offset="1" stop-color="#0a4f47"/>
+          </linearGradient>
+          <linearGradient id="tube" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#f6f8f7"/>
+            <stop offset="1" stop-color="#dcebe7"/>
+          </linearGradient>
+        </defs>
+        <ellipse cx="200" cy="302" rx="150" ry="20" fill="#0f6e63" opacity=".08"/>
+        <!-- 水乳瓶 -->
+        <rect x="120" y="120" width="66" height="160" rx="14" fill="url(#bottle)"/>
+        <rect x="134" y="94" width="38" height="30" rx="7" fill="#0a4f47"/>
+        <rect x="132" y="160" width="42" height="52" rx="6" fill="#eaf6f3" opacity=".9"/>
+        <rect x="140" y="172" width="26" height="4" rx="2" fill="#0f6e63"/>
+        <rect x="140" y="182" width="18" height="3" rx="1.5" fill="#6b7a76"/>
+        <!-- 精华滴管 -->
+        <rect x="206" y="150" width="48" height="130" rx="12" fill="#d97742"/>
+        <rect x="218" y="118" width="24" height="36" rx="6" fill="#a1522a"/>
+        <rect x="224" y="96" width="12" height="26" rx="5" fill="#0a4f47"/>
+        <circle cx="230" cy="200" r="10" fill="#fbeade"/>
+        <!-- 面霜罐 -->
+        <rect x="268" y="200" width="80" height="80" rx="20" fill="url(#tube)"/>
+        <rect x="270" y="188" width="76" height="20" rx="9" fill="#0f6e63"/>
+        <circle cx="308" cy="240" r="17" fill="#0f6e63" opacity=".18"/>
+        <!-- 唇膏 -->
+        <rect x="66" y="214" width="26" height="66" rx="6" fill="#0a4f47"/>
+        <rect x="71" y="196" width="16" height="22" rx="5" fill="#d97742"/>
+        <!-- 装饰 -->
+        <circle cx="86" cy="118" r="9" fill="#d97742" opacity=".55"/>
+        <circle cx="330" cy="120" r="6" fill="#0f6e63" opacity=".45"/>
+        <path d="M40 268c18-10 32-10 50 0" stroke="#0f6e63" stroke-width="3" fill="none" stroke-linecap="round" opacity=".35"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- 移动端频道横向导航 -->
+<nav class="channel-mobile" aria-label="移动端频道导航">
+  <a href="/#overview">产品概览</a>
+  <a href="/#featured">精选推荐</a>
+  <a href="/#updates">今日更新</a>
+  <a href="/#categories">产品分类</a>
+  <a href="/#deepdive">成分解析</a>
+  <a href="/#guide">选购指南</a>
+  <a href="/#faq">常见问答</a>
+  <a href="/#comments">用户反馈</a>
+  <a href="/#ranking">热销榜</a>
+  <a href="/#news">产品资讯</a>
+</nav>
+
+<div class="layout" id="mainLayout">
+
+  <!-- 左频道栏 -->
+  <aside class="channel-col" aria-label="产品频道索引">
+    <div class="channel-box">
+      <h2>产品频道</h2>
+      <ul>
+        <li><a href="/#categories">洁面清洁 <small>8</small></a></li>
+        <li><a href="/#categories">水乳套装 <small>11</small></a></li>
+        <li><a href="/#categories">精华原液 <small>9</small></a></li>
+        <li><a href="/#categories">面霜乳液 <small>7</small></a></li>
+        <li><a href="/#categories">防晒隔离 <small>6</small></a></li>
+        <li><a href="/#categories">底妆遮瑕 <small>8</small></a></li>
+        <li><a href="/#categories">唇妆眼妆 <small>10</small></a></li>
+        <li><a href="/#categories">洗发护发 <small>6</small></a></li>
+        <li><a href="/#categories">身体护理 <small>3</small></a></li>
+        <li><a href="/#ranking">热销榜 <small>TOP10</small></a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- 主内容 -->
+  <main class="main-col">
+
+    <!-- 1 产品概览 -->
+    <section class="section" id="overview">
+      <div class="section-head">
+        <h2>产品线概览</h2>
+        <span class="desc">护肤 · 彩妆 · 洗护三大方向</span>
+      </div>
+      <div class="overview-text">
+        <p>
+          亚韩产品是一套以亚洲肤质为研发基准的产品体系，最早从敏感肌洁面单品起步，逐步扩展到护肤、彩妆与洗护三条完整产品线。当前在售 68 个单品，按功效分为<strong>基础保湿、屏障修护、控油净肤、抗初老、持妆底妆</strong>五个方向，每个方向都有 2—4 个价位段可选。
+        </p>
+        <p>
+          护肤线是这套体系的核心。洁面类以氨基酸表活为主，水乳套装分为清爽型与滋润型两套配方，精华原液按浓度梯度划分为 5%、10%、15% 三档，面霜线则围绕神经酰胺与角鲨烷搭建屏障修护组合。彩妆线近年增长最快，底妆主打轻薄持妆，唇妆以低饱和色调为主，配合亚洲肤色做过色号校准。洗护线相对精简，洗发、护发、身体乳三类共 9 个单品。
+        </p>
+        <p>
+          当前值得关注的具体变化有三点：一是 11 月 25 日上新的青禾Ⅲ代水乳，把烟酰胺浓度从 3% 提到 5%，并去掉了酒精；二是防晒线新增「轻羽防晒乳 SPF50+」，主打不泛白；三是彩妆线补了 6 个低饱和唇色，针对冷白皮与暖黄皮分别调色。想快速切入，可以先看下方精选单品，再按分类找对应功能。
+        </p>
+      </div>
+    </section>
+
+    <!-- 2 精选推荐 -->
+    <section class="section" id="featured">
+      <div class="section-head">
+        <h2>精选单品推荐</h2>
+        <span class="desc">按口碑与复购综合排序</span>
+        <a class="more" href="/#ranking">看完整榜单 →</a>
+      </div>
+      <div class="card-grid" id="cardGrid">
+
+        <article class="card" data-name="青禾Ⅲ代水乳套装 烟酰胺 保湿 修护">
+          <img src="https://picsum.photos/seed/yahan-shuiru01/400/300" width="400" height="300" loading="lazy" alt="青禾Ⅲ代水乳套装产品展示">
+          <div class="card-body">
+            <h3>青禾Ⅲ代水乳套装</h3>
+            <div class="card-tags">
+              <span class="tag-pill">水乳套装</span>
+              <span class="tag-pill alt">烟酰胺 5%</span>
+              <span class="tag-pill">屏障修护</span>
+            </div>
+            <p>2026 年 11 月换新配方，烟酰胺提到 5% 并去除酒精，滋润型额外加了角鲨烷。适合混干与换季泛红人群，油皮建议选清爽型。</p>
+            <div class="card-meta"><span>更新于 11-25</span><span class="score">4.8 分</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-name="氨基酸温和洁面乳 敏感肌 清洁 泡沫">
+          <img src="https://picsum.photos/seed/yahan-jiemian02/400/300" width="400" height="300" loading="lazy" alt="氨基酸温和洁面乳包装">
+          <div class="card-body">
+            <h3>氨基酸温和洁面乳</h3>
+            <div class="card-tags">
+              <span class="tag-pill">洁面清洁</span>
+              <span class="tag-pill alt">敏感肌</span>
+              <span class="tag-pill">弱酸性</span>
+            </div>
+            <p>椰油酰甘氨酸钾为主表活，pH 5.5，泡沫偏细腻，洗后不紧绷。是这条产品线里复购率最高的单品，适合早晚使用。</p>
+            <div class="card-meta"><span>月销 3.2 万</span><span class="score">4.7 分</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-name="轻羽防晒乳 SPF50+ 不泛白 通勤防晒">
+          <img src="https://picsum.photos/seed/yahan-fangshai03/400/300" width="400" height="300" loading="lazy" alt="轻羽防晒乳 SPF50+ 产品图">
+          <div class="card-body">
+            <h3>轻羽防晒乳 SPF50+</h3>
+            <div class="card-tags">
+              <span class="tag-pill">防晒隔离</span>
+              <span class="tag-pill alt">化学防晒</span>
+              <span class="tag-pill">不泛白</span>
+            </div>
+            <p>2026 年 11 月新增单品，物化结合配方，成膜快、泛白度低，适合通勤与室内补涂。油皮反馈中午后会略出油，需搭配散粉。</p>
+            <div class="card-meta"><span>上新 11-25</span><span class="score">4.5 分</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-name="白桦精华原液 10% 提亮 抗初老">
+          <img src="https://picsum.photos/seed/yahan-jinghua04/400/300" width="400" height="300" loading="lazy" alt="白桦精华原液瓶身">
+          <div class="card-body">
+            <h3>白桦精华原液 10%</h3>
+            <div class="card-tags">
+              <span class="tag-pill">精华原液</span>
+              <span class="tag-pill alt">10% 浓度</span>
+              <span class="tag-pill">提亮</span>
+            </div>
+            <p>白桦树汁发酵滤液搭配 10% 烟酰胺，主打提亮与均匀肤色。质地偏水，适合叠在爽肤水之后，初次使用建议隔天一次。</p>
+            <div class="card-meta"><span>月销 1.8 万</span><span class="score">4.6 分</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-name="柔雾持妆粉底液 底妆 遮瑕 亚洲肤色">
+          <img src="https://picsum.photos/seed/yahan-fendi05/400/300" width="400" height="300" loading="lazy" alt="柔雾持妆粉底液色号展示">
+          <div class="card-body">
+            <h3>柔雾持妆粉底液</h3>
+            <div class="card-tags">
+              <span class="tag-pill">底妆遮瑕</span>
+              <span class="tag-pill alt">哑光妆效</span>
+              <span class="tag-pill">8 个色号</span>
+            </div>
+            <p>按冷暖调划分 8 个色号，中调偏多，遮瑕度中等可叠加。实测持妆 6—8 小时，混油皮夏季需定妆，干皮建议先打底。</p>
+            <div class="card-meta"><span>月销 2.4 万</span><span class="score">4.6 分</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-name="低饱和唇釉 唇妆 冷白皮 暖黄皮 色号">
+          <img src="https://picsum.photos/seed/yahan-chunyou06/400/300" width="400" height="300" loading="lazy" alt="低饱和唇釉六色试色">
+          <div class="card-body">
+            <h3>低饱和唇釉系列</h3>
+            <div class="card-tags">
+              <span class="tag-pill">唇妆眼妆</span>
+              <span class="tag-pill alt">6 个新色</span>
+              <span class="tag-pill">雾面</span>
+            </div>
+            <p>11 月补的 6 个色号分冷暖两组，雾面质地但含少量油脂，不拔干。热门色是「豆沙棕」与「肉桂橘」，适合日常通勤。</p>
+            <div class="card-meta"><span>上新 11-25</span><span class="score">4.4 分</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-name="神经酰胺面霜 屏障修护 干皮 冬季">
+          <img src="https://picsum.photos/seed/yahan-mianshuang07/400/300" width="400" height="300" loading="lazy" alt="神经酰胺面霜罐装">
+          <div class="card-body">
+            <h3>神经酰胺修护面霜</h3>
+            <div class="card-tags">
+              <span class="tag-pill">面霜乳液</span>
+              <span class="tag-pill alt">神经酰胺</span>
+              <span class="tag-pill">干皮友好</span>
+            </div>
+            <p>三重神经酰胺配比，质地偏厚但延展性好，适合秋冬屏障修护与刷酸后过渡。油皮夏天用可能偏闷，建议薄涂。</p>
+            <div class="card-meta"><span>月销 1.5 万</span><span class="score">4.7 分</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-name="氨基酸洗发水 控油 头皮 洗护">
+          <img src="https://picsum.photos/seed/yahan-xifa08/400/300" width="400" height="300" loading="lazy" alt="氨基酸洗发水与护发素组合">
+          <div class="card-body">
+            <h3>氨基酸控油洗发水</h3>
+            <div class="card-tags">
+              <span class="tag-pill">洗发护发</span>
+              <span class="tag-pill alt">无硅油</span>
+              <span class="tag-pill">头皮控油</span>
+            </div>
+            <p>无硅油配方，主打头皮控油与蓬松，洗后发根支撑感明显。配套护发素偏清爽，细软发质反馈较好，粗硬发需加发膜。</p>
+            <div class="card-meta"><span>月销 2.1 万</span><span class="score">4.5 分</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-name="烟酰胺身体乳 保湿 身体护理 秋冬">
+          <img src="https://picsum.photos/seed/yahan-shenti09/400/300" width="400" height="300" loading="lazy" alt="烟酰胺身体乳瓶装">
+          <div class="card-body">
+            <h3>烟酰胺身体乳</h3>
+            <div class="card-tags">
+              <span class="tag-pill">身体护理</span>
+              <span class="tag-pill alt">烟酰胺 3%</span>
+              <span class="tag-pill">秋冬保湿</span>
+            </div>
+            <p>3% 烟酰胺加乳木果油，吸收快不粘衣，适合洗澡后三分钟内涂抹。香味偏淡，对香精敏感的人也能接受。</p>
+            <div class="card-meta"><span>月销 1.3 万</span><span class="score">4.4 分</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-name="控油散粉 定妆 油皮 底妆">
+          <img src="https://picsum.photos/seed/yahan-sanfen10/400/300" width="400" height="300" loading="lazy" alt="控油散粉粉盒">
+          <div class="card-body">
+            <h3>控油定妆散粉</h3>
+            <div class="card-tags">
+              <span class="tag-pill">底妆遮瑕</span>
+              <span class="tag-pill alt">控油</span>
+              <span class="tag-pill">柔焦</span>
+            </div>
+            <p>粉质偏细，柔焦效果明显，适合混油皮 T 区定妆。不带明显珠光，可与柔雾粉底液搭配使用，干皮建议只扫局部。</p>
+            <div class="card-meta"><span>月销 1.7 万</span><span class="score">4.5 分</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-name="水杨酸净肤精华 控油 闭口 油皮">
+          <img src="https://picsum.photos/seed/yahan-shuiyangsuan11/400/300" width="400" height="300" loading="lazy" alt="水杨酸净肤精华瓶身">
+          <div class="card-body">
+            <h3>水杨酸净肤精华 2%</h3>
+            <div class="card-tags">
+              <span class="tag-pill">精华原液</span>
+              <span class="tag-pill alt">水杨酸 2%</span>
+              <span class="tag-pill">闭口护理</span>
+            </div>
+            <p>2% 水杨酸搭配泛醇缓冲，针对闭口与毛孔堵塞。建议夜间局部使用，每周 2—3 次，搭配防晒，敏感肌先做耳后测试。</p>
+            <div class="card-meta"><span>月销 1.1 万</span><span class="score">4.5 分</span></div>
+          </div>
+        </article>
+
+        <article class="card" data-name="卸妆膏 乳化 彩妆清洁 敏感肌">
+          <img src="https://picsum.photos/seed/yahan-xiezhuang12/400/300" width="400" height="300" loading="lazy" alt="卸妆膏罐与挖勺">
+          <div class="card-body">
+            <h3>柔润卸妆膏</h3>
+            <div class="card-tags">
+              <span class="tag-pill">洁面清洁</span>
+              <span class="tag-pill alt">乳化快</span>
+              <span class="tag-pill">不糊眼</span>
+            </div>
+            <p>膏体遇肤温即融，乳化速度快，卸防晒与底妆一遍到位。冲洗后不假滑，是彩妆用户比较常搭配的清洁单品。</p>
+            <div class="card-meta"><span>月销 9800</span><span class="score">4.6 分</span></div>
+          </div>
+        </article>
+
+      </div>
+      <div class="no-result" id="noResult">没有找到匹配的产品，换个关键词试试，例如「水乳」「防晒」「唇釉」。</div>
+    </section>
+
+    <!-- 3 最新更新 -->
+    <section class="section" id="updates">
+      <div class="section-head">
+        <h2>今日更新与上新动态</h2>
+        <span class="desc">截至 2026-11-25</span>
+      </div>
+      <ul class="update-list">
+        <li><time>今天 09:30</time><b>青禾Ⅲ代水乳套装</b><span>全系换新配方上架，滋润型新增角鲨烷，清爽型下调油脂含量。</span></li>
+        <li><time>今天 10:15</time><b>低饱和唇釉系列</b><span>补 6 个新色号，冷调「豆沙棕」与暖调「肉桂橘」为首发主推。</span></li>
+        <li><time>今天 11:00</time><b>轻羽防晒乳 SPF50+</b><span>防晒线新品开售，首批限量 5000 支，附赠 10ml 小样。</span></li>
+        <li><time>昨天 20:40</time><b>神经酰胺修护面霜</b><span>冬季批次到货，配方未变，包装改为可回收材质。</span></li>
+        <li><time>11 月 23 日</time><b>白桦精华原液 15%</b><span>高浓度版本补货完成，恢复常规供货。</span></li>
+        <li><time>11 月 21 日</time><b>氨基酸控油洗发水</b><span>新增 500ml 家庭装规格，单价下调约 15%。</span></li>
+        <li><time>11 月 19 日</time><b>柔雾持妆粉底液</b><span>色号表更新，新增「中性二白」，覆盖更多暖调肤色。</span></li>
+        <li><time>11 月 16 日</time><b>水杨酸净肤精华 2%</b><span>包装说明补充使用频率建议，配方未调整。</span></li>
+        <li><time>11 月 12 日</time><b>柔润卸妆膏</b><span>冬季限定香型上线，基础款继续在售。</span></li>
+        <li><time>11 月 8 日</time><b>烟酰胺身体乳</b><span>推出 300ml 大容量装，适合秋冬全家使用。</span></li>
+        <li><time>11 月 5 日</time><b>氨基酸温和洁面乳</b><span>补充 150ml 旅行装，进入常规货架。</span></li>
+        <li><time>11 月 2 日</time><b>控油定妆散粉</b><span>粉扑材质升级，替换装同步开售。</span></li>
+      </ul>
+    </section>
+
+    <!-- 4 分类入口 -->
+    <section class="section" id="categories">
+      <div class="section-head">
+        <h2>按功能分类找产品</h2>
+        <span class="desc">8 个常用筛选方向</span>
+      </div>
+      <div class="cat-grid">
+        <a class="cat-item" href="/#featured"><b>洁面清洁</b><span>氨基酸洁面、卸妆膏、洁颜油</span></a>
+        <a class="cat-item" href="/#featured"><b>水乳套装</b><span>清爽型、滋润型、换季修护</span></a>
+        <a class="cat-item" href="/#featured"><b>精华原液</b><span>烟酰胺、水杨酸、发酵滤液</span></a>
+        <a class="cat-item" href="/#featured"><b>面霜乳液</b><span>神经酰胺、角鲨烷、屏障修护</span></a>
+        <a class="cat-item" href="/#featured"><b>防晒隔离</b><span>通勤防晒、不泛白、可补涂</span></a>
+        <a class="cat-item" href="/#featured"><b>底妆遮瑕</b><span>粉底液、散粉、遮瑕膏</span></a>
+        <a class="cat-item" href="/#featured"><b>唇妆眼妆</b><span>唇釉、眉笔、眼影盘</span></a>
+        <a class="cat-item" href="/#featured"><b>洗发护发</b><span>无硅油洗发、护发素、发膜</span></a>
+      </div>
+    </section>
+
+    <!-- 5 深度解析 -->
+    <section class="section" id="deepdive">
+      <div class="section-head">
+        <h2>成分解析：这套产品线怎么分层</h2>
+        <span class="desc">按浓度与配方逻辑拆解</span>
+      </div>
+      <div class="article-body">
+        <h3>护肤线的三段式结构</h3>
+        <p>
+          亚韩产品的护肤线不是按单品堆叠，而是按「清洁—活性—封闭」三段式搭建。清洁段以氨基酸表活为核心，包括洁面乳、卸妆膏与洁颜油，目的是在低刺激前提下完成清洁；活性段是水乳、精华与部分面霜，承担保湿、提亮与控油功能；封闭段则是面霜与防晒，负责锁水与外部防护。理解这个分层，比逐个记单品名更有效。
+        </p>
+        <p>
+          以水乳套装为例，清爽型与滋润型的差别主要在油脂比例与增稠体系。清爽型用轻质合成酯，适合油皮与夏季；滋润型加入角鲨烷与乳木果油，适合干皮与秋冬。两套配方的活性物浓度一致，所以选择依据是肤质与季节，不是功效强弱。
+        </p>
+
+        <h3>精华原液的浓度梯度怎么选</h3>
+        <p>
+          精华原液是这条产品线里浓度分层最清晰的品类，目前按烟酰胺与酸类两条线分别划分梯度：
+        </p>
+        <table class="compare">
+          <thead>
+            <tr><th>单品</th><th>核心成分</th><th>建议使用频率</th><th>适合人群</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>白桦精华原液 5%</td><td>烟酰胺 5% + 发酵滤液</td><td>每日一次</td><td>初次使用烟酰胺</td></tr>
+            <tr><td>白桦精华原液 10%</td><td>烟酰胺 10% + 泛醇</td><td>每日一次</td><td>已有耐受、追求提亮</td></tr>
+            <tr><td>白桦精华原液 15%</td><td>烟酰胺 15% + 传明酸</td><td>隔天一次</td><td>耐受良好、色沉明显</td></tr>
+            <tr><td>水杨酸净肤精华 2%</td><td>水杨酸 2% + 泛醇</td><td>每周 2—3 次</td><td>闭口、毛孔堵塞</td></tr>
+          </tbody>
+        </table>
+        <p>
+          浓度不是越高越好。烟酰胺在 5% 附近已经能覆盖大部分提亮需求，10% 以上的边际收益会下降，同时刺痛概率上升。水杨酸则要注意叠加，如果同时在用含酸洁面，建议把精华频率降到每周两次。
+        </p>
+
+        <h3>彩妆线的色号逻辑</h3>
+        <p>
+          彩妆线的色号按冷暖调加明度两个维度划分。底妆 8 个色号里，冷调 3 个、中性 3 个、暖调 2 个，明度从一白到三白。唇釉的 6 个新色同样按冷暖分组，冷调偏豆沙与玫瑰，暖调偏橘棕与肉桂。选色时先判断自己的底色是冷还是暖，再在组内挑明度，比直接看试色图更准。
+        </p>
+        <ul>
+          <li>冷白皮：底妆选冷调一白，唇釉优先冷调豆沙棕。</li>
+          <li>暖黄皮：底妆选中性二白或暖调二白，唇釉优先肉桂橘。</li>
+          <li>橄榄皮：底妆建议中性调，避免过粉或过黄的色号。</li>
+          <li>不确定底色：先从中性调入手，再按上脸效果微调。</li>
+        </ul>
+
+        <h3>洗护线的配方取向</h3>
+        <p>
+          洗护线走的是精简路线，核心单品只有洗发水、护发素与身体乳。氨基酸控油洗发水用无硅油配方，靠氨基酸表活加少量甜菜碱完成清洁，洗后发根支撑感明显，但顺滑度不如含硅油产品，所以配套护发素做了偏清爽的处理。身体乳则用 3% 烟酰胺加乳木果油，兼顾保湿与肤感，吸收速度是这条线里反馈最好的部分。
+        </p>
+        <p>
+          值得注意的是，洗护线与护肤线的香精策略不同。护肤线基本无香，洗护线保留了淡香型，对身体乳这类大面积涂抹的产品，香味接受度是选购时需要考虑的实际因素。
+        </p>
+      </div>
+    </section>
+
+    <!-- 6 选购指南 -->
+    <section class="section" id="guide">
+      <div class="section-head">
+        <h2>选购路径：第一次买怎么排顺序</h2>
+        <span class="desc">按需求优先级排列</span>
+      </div>
+      <ol class="steps">
+        <li>
+          <b>先定肤质，再定品类</b>
+          <span>油皮优先看清爽型水乳、控油散粉与水杨酸精华；干皮优先看滋润型水乳、神经酰胺面霜；敏感肌从氨基酸洁面与无香配方入手。</span>
+        </li>
+        <li>
+          <b>从清洁和防晒这两个高频项开始</b>
+          <span>洁面与防晒是每天都会用到的单品，先在这两个品类里找到适合自己的，再考虑精华与面霜，试错成本更低。</span>
+        </li>
+        <li>
+          <b>活性成分一次只加一个</b>
+          <span>烟酰胺与水杨酸不要同时上脸。先建立烟酰胺耐受，再考虑酸类；如果已经在用其他品牌的酸，注意叠加总量。</span>
+        </li>
+        <li>
+          <b>彩妆先试色号，再谈质地</b>
+          <span>底妆与唇釉的色号差异比质地差异更影响观感。建议先确定冷暖调，再看哑光或水润，最后比较持妆时长。</span>
+        </li>
+        <li>
+          <b>洗护看发质与头皮状态</b>
+          <span>细软发质适合无硅油控油洗发水，粗硬发质需要额外加发膜；头皮敏感的人优先看表活类型，而不是香味。</span>
+        </li>
+        <li>
+          <b>换季时优先调整封闭段</b>
+          <span>秋冬把乳液换成面霜、把清爽型水乳换成滋润型，比频繁更换精华更有效，也更省钱。</span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- 7 FAQ -->
+    <section class="section" id="faq">
+      <div class="section-head">
+        <h2>常见问答</h2>
+        <span class="desc">围绕成分、色号与使用频率</span>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>亚韩产品的水乳套装一般多久更新一次配方？</summary>
+          <div class="answer">水乳套装属于配方相对稳定的品类，通常一到两年做一次调整。青禾系列从Ⅱ代到Ⅲ代间隔约 18 个月，这次主要变化是烟酰胺浓度从 3% 提到 5% 并去除酒精。日常购买不需要追新，除非你对酒精敏感或正在换季。</div>
+        </details>
+        <details>
+          <summary>清爽型和滋润型水乳到底差在哪里？</summary>
+          <div class="answer">活性物浓度一致，差别在油脂比例与增稠体系。清爽型用轻质合成酯，上脸更薄、吸收更快，适合油皮与夏季；滋润型加了角鲨烷与乳木果油，封闭性更强，适合干皮与秋冬。混油皮可以夏天用清爽型、冬天换滋润型。</div>
+        </details>
+        <details>
+          <summary>第一次用烟酰胺精华，从哪个浓度开始比较好？</summary>
+          <div class="answer">建议从 5% 的白桦精华原液开始，每日一次，连续两周观察是否有刺痛或泛红。耐受良好再考虑 10%，15% 版本适合已经长期使用、且色沉比较明显的人。不要一上来就用高浓度，也不要在刷酸当天叠加。</div>
+        </details>
+        <details>
+          <summary>柔雾持妆粉底液的色号怎么判断冷暖调？</summary>
+          <div class="answer">看手腕血管颜色是常见的粗略方法：偏蓝紫多为冷调，偏绿多为暖调，两者都有偏中性。更稳妥的方式是看下颌线在自然光下的表现，泛粉选冷调，泛黄选暖调，橄榄皮建议直接选中性调。8 个色号里中性调覆盖最广。</div>
+        </details>
+        <details>
+          <summary>水杨酸净肤精华和氨基酸洁面可以一起用吗？</summary>
+          <div class="answer">可以，但要注意频率。氨基酸洁面本身温和，不构成叠加负担；真正需要控制的是水杨酸精华的使用次数，建议每周 2—3 次、夜间局部使用。如果同时在用其他含酸产品，把精华降到每周两次更稳妥。</div>
+        </details>
+        <details>
+          <summary>无硅油洗发水洗完发涩是正常的吗？</summary>
+          <div class="answer">正常。无硅油配方不靠硅油填平毛鳞片，所以洗后手感偏涩、发根更蓬松。配套护发素做了偏清爽的处理，用来改善发梢顺滑度。如果发质偏粗硬，可以在护发素之后加一次发膜，停留三分钟再冲掉。</div>
+        </details>
+      </div>
+    </section>
+
+    <!-- 8 用户评论 -->
+    <section class="section" id="comments">
+      <div class="section-head">
+        <h2>用户反馈</h2>
+        <span class="desc">来自近 30 天的真实评价摘录</span>
+      </div>
+      <div class="comment-list">
+        <div class="comment"><div class="comment-head"><b>林间小满</b><time>11-25</time></div><p>青禾Ⅲ代滋润型用了三天，换季泛红确实压下去了，质地比Ⅱ代厚一点但不闷。</p><span class="item">青禾Ⅲ代水乳套装</span></div>
+        <div class="comment"><div class="comment-head"><b>阿柚不加冰</b><time>11-24</time></div><p>氨基酸洁面回购第四次了，冬天洗完不紧绷，就是泡沫要打久一点。</p><span class="item">氨基酸温和洁面乳</span></div>
+        <div class="comment"><div class="comment-head"><b>南墙以北</b><time>11-24</time></div><p>轻羽防晒乳是真的不泛白，通勤够用。但油皮中午会有点油光，得补散粉。</p><span class="item">轻羽防晒乳 SPF50+</span></div>
+        <div class="comment"><div class="comment-head"><b>半糖去冰七分</b><time>11-23</time></div><p>肉桂橘这个色号对暖黄皮太友好了，雾面但不拔干，比想象中好推。</p><span class="item">低饱和唇釉系列</span></div>
+        <div class="comment"><div class="comment-head"><b>陈默的护肤本</b><time>11-22</time></div><p>白桦精华 10% 用了两周，提亮有一点但不算明显，可能还要再观察。质地倒是很舒服。</p><span class="item">白桦精华原液 10%</span></div>
+        <div class="comment"><div class="comment-head"><b>一只柯基腿</b><time>11-21</time></div><p>柔雾粉底液中性二白刚好，持妆六小时左右，鼻翼会有点斑驳，其他都还行。</p><span class="item">柔雾持妆粉底液</span></div>
+        <div class="comment"><div class="comment-head"><b>雾岛听风</b><time>11-20</time></div><p>神经酰胺面霜冬天用很稳，刷酸之后拿它过渡没有刺痛，就是夏天用会偏厚。</p><span class="item">神经酰胺修护面霜</span></div>
+        <div class="comment"><div class="comment-head"><b>苏打气泡水</b><time>11-19</time></div><p>水杨酸精华用了三周，闭口确实平了一些，但前两周有点脱皮，建议从每周两次开始。</p><span class="item">水杨酸净肤精华 2%</span></div>
+        <div class="comment"><div class="comment-head"><b>柠檬不酸</b><time>11-18</time></div><p>氨基酸洗发水控油可以，第二天发根还是蓬的，但发梢偏干，得配护发素。</p><span class="item">氨基酸控油洗发水</span></div>
+        <div class="comment"><div class="comment-head"><b>九月未眠</b><time>11-17</time></div><p>身体乳吸收很快，不粘睡衣，香味淡到几乎闻不到，这点我很喜欢。</p><span class="item">烟酰胺身体乳</span></div>
+        <div class="comment"><div class="comment-head"><b>木木夕呀</b><time>11-16</time></div><p>卸妆膏乳化是真的快，防晒能卸干净，就是挖勺有点小，用久了容易丢。</p><span class="item">柔润卸妆膏</span></div>
+        <div class="comment"><div class="comment-head"><b>北纬三十度</b><time>11-15</time></div><p>散粉柔焦效果不错，T 区控油四小时左右，干皮建议只扫局部，全脸会有点干。</p><span class="item">控油定妆散粉</span></div>
+        <div class="comment"><div class="comment-head"><b>晚风收信人</b><time>11-14</time></div><p>整体价格算亲民，但色号选择还是偏少，橄榄皮想找合适的底妆有点难。</p><span class="item">柔雾持妆粉底液</span></div>
+        <div class="comment"><div class="comment-head"><b>小满未满</b><time>11-13</time></div><p>清爽型水乳夏天用很舒服，冬天换成滋润型刚好，两套搭配着用性价比高。</p><span class="item">青禾Ⅲ代水乳套装</span></div>
+        <div class="comment"><div class="comment-head"><b>橘子汽水味</b><time>11-12</time></div><p>唇釉雾面质地比预期润，但持色一般，吃饭之后要补一次。</p><span class="item">低饱和唇釉系列</span></div>
+        <div class="comment"><div class="comment-head"><b>山海不可平</b><time>11-11</time></div><p>洁面加卸妆膏的组合用下来皮肤稳定了不少，之前换季会起皮，今年没有。</p><span class="item">氨基酸温和洁面乳</span></div>
+      </div>
+    </section>
+
+    <!-- 9 相关资讯 -->
+    <section class="section" id="news">
+      <div class="section-head">
+        <h2>产品资讯</h2>
+        <span class="desc">近一个月的上新与调整</span>
+      </div>
+      <ul class="news-list">
+        <li>
+          <img src="https://picsum.photos/seed/yahan-news-qinghe/600/400" width="600" height="400" loading="lazy" alt="青禾Ⅲ代水乳套装上新发布">
+          <div>
+            <time>2026-11-25</time>
+            <b>青禾Ⅲ代水乳套装换新配方上架</b>
+            <p>烟酰胺浓度提至 5%，去除酒精，滋润型新增角鲨烷，清爽型下调油脂含量。</p>
+          </div>
+        </li>
+        <li>
+          <img src="https://picsum.photos/seed/yahan-news-fangshai/600/400" width="600" height="400" loading="lazy" alt="轻羽防晒乳新品陈列">
+          <div>
+            <time>2026-11-25</time>
+            <b>防晒线新增轻羽防晒乳 SPF50+</b>
+            <p>物化结合配方，主打不泛白与快速成膜，首批限量 5000 支并附赠小样。</p>
+          </div>
+        </li>
+        <li>
+          <img src="https://picsum.photos/seed/yahan-news-chunyou/600/400" width="600" height="400" loading="lazy" alt="低饱和唇釉六色试色图">
+          <div>
+            <time>2026-11-25</time>
+            <b>唇釉补 6 个低饱和色号</b>
+            <p>分冷暖两组调色，豆沙棕与肉桂橘为首发主推，针对亚洲肤色做过校准。</p>
+          </div>
+        </li>
+        <li>
+          <img src="https://picsum.photos/seed/yahan-news-xifa/600/400" width="600" height="400" loading="lazy" alt="氨基酸洗发水家庭装">
+          <div>
+            <time>2026-11-21</time>
+            <b>氨基酸控油洗发水推出 500ml 家庭装</b>
+            <p>配方不变，新增家庭装规格，单价下调约 15%，进入常规货架。</p>
+          </div>
+        </li>
+        <li>
+          <img src="https://picsum.photos/seed/yahan-news-fendi/600/400" width="600" height="400" loading="lazy" alt="柔雾持妆粉底液色号表">
+          <div>
+            <time>2026-11-19</time>
+            <b>柔雾持妆粉底液色号表更新</b>
+            <p>新增「中性二白」，覆盖更多暖调肤色，原有 7 个色号继续在售。</p>
+          </div>
+        </li>
+        <li>
+          <img src="https://picsum.photos/seed/yahan-news-shenti/600/400" width="600" height="400" loading="lazy" alt="烟酰胺身体乳大容量装">
+          <div>
+            <time>2026-11-08</time>
+            <b>烟酰胺身体乳推出 300ml 大容量装</b>
+            <p>3% 烟酰胺加乳木果油配方不变，大容量装更适合秋冬全家使用。</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 10 相关推荐 -->
+    <section class="section" id="related">
+      <div class="section-head">
+        <h2>相关方向推荐</h2>
+        <span class="desc">延伸阅读与搭配方向</span>
+      </div>
+      <div class="tag-index">
+        <a href="/#deepdive">烟酰胺浓度梯度对比</a>
+        <a href="/#guide">换季水乳切换方法</a>
+        <a href="/#deepdive">神经酰胺与角鲨烷的搭配</a>
+        <a href="/#featured">混油皮夏季清单</a>
+        <a href="/#featured">干皮秋冬面霜选择</a>
+        <a href="/#deepdive">底妆冷暖调判断</a>
+        <a href="/#faq">水杨酸使用频率</a>
+        <a href="/#featured">无硅油洗发水适配发质</a>
+      </div>
+    </section>
+
+    <!-- 11 热销榜 -->
+    <section class="section" id="ranking">
+      <div class="section-head">
+        <h2>本周热销榜</h2>
+        <span class="desc">统计周期 11-18 至 11-25</span>
+      </div>
+      <ol class="rank-list">
+        <li><div><b>氨基酸温和洁面乳</b><span>月销 3.2 万，复购率最高单品</span></div></li>
+        <li><div><b>柔雾持妆粉底液</b><span>月销 2.4 万，中性二白最热门</span></div></li>
+        <li><div><b>氨基酸控油洗发水</b><span>月销 2.1 万，家庭装拉动明显</span></div></li>
+        <li><div><b>白桦精华原液 10%</b><span>月销 1.8 万，提亮需求集中</span></div></li>
+        <li><div><b>控油定妆散粉</b><span>月销 1.7 万，混油皮首选搭配</span></div></li>
+        <li><div><b>神经酰胺修护面霜</b><span>月销 1.5 万，冬季批次到货</span></div></li>
+        <li><div><b>烟酰胺身体乳</b><span>月销 1.3 万，大容量装热销</span></div></li>
+        <li><div><b>水杨酸净肤精华 2%</b><span>月销 1.1 万，闭口护理需求稳定</span></div></li>
+        <li><div><b>柔润卸妆膏</b><span>月销 9800，彩妆用户搭配率高</span></div></li>
+        <li><div><b>青禾Ⅲ代水乳套装</b><span>上新首日进入前十，增速最快</span></div></li>
+      </ol>
+    </section>
+
+  </main>
+
+  <!-- 右辅助栏 -->
+  <aside class="side-col" aria-label="辅助信息">
+    <div class="side-card">
+      <h2>今日上新</h2>
+      <ul class="side-list">
+        <li><a href="/#featured">青禾Ⅲ代水乳套装 <small>09:30</small></a></li>
+        <li><a href="/#featured">低饱和唇釉 6 色 <small>10:15</small></a></li>
+        <li><a href="/#featured">轻羽防晒乳 SPF50+ <small>11:00</small></a></li>
+      </ul>
+    </div>
+    <div class="side-card">
+      <h2>热门分类</h2>
+      <ul class="side-list">
+        <li><a href="/#categories">水乳套装 <small>11 款</small></a></li>
+        <li><a href="/#categories">精华原液 <small>9 款</small></a></li>
+        <li><a href="/#categories">底妆遮瑕 <small>8 款</small></a></li>
+        <li><a href="/#categories">唇妆眼妆 <small>10 款</small></a></li>
+        <li><a href="/#categories">洁面清洁 <small>8 款</small></a></li>
+      </ul>
+    </div>
+    <div class="side-card">
+      <h2>成分速查</h2>
+      <ul class="side-list">
+        <li><a href="/#deepdive">烟酰胺 5% / 10% / 15%</a></li>
+        <li><a href="/#deepdive">水杨酸 2%</a></li>
+        <li><a href="/#deepdive">神经酰胺三重配比</a></li>
+        <li><a href="/#deepdive">角鲨烷与乳木果油</a></li>
+      </ul>
+    </div>
+    <div class="side-card">
+      <h2>选购提示</h2>
+      <p class="side-note">产品功效描述基于配方成分与用户反馈整理，个体差异较大。首次使用高浓度活性成分建议先做局部测试，孕期或特殊肤质人群请咨询专业人士。</p>
+    </div>
+  </aside>
+
+</div>
+
+<!-- 页尾 -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <b>亚韩产品</b>
+        <p>面向亚洲肤质研发的护肤、彩妆与洗护产品体系，按功效与浓度分层，覆盖日常清洁、保湿修护、持妆与身体护理等场景。</p>
+      </div>
+      <div class="footer-col">
+        <h3>产品分类</h3>
+        <ul>
+          <li><a href="/#categories">洁面清洁</a></li>
+          <li><a href="/#categories">水乳套装</a></li>
+          <li><a href="/#categories">精华原液</a></li>
+          <li><a href="/#categories">面霜乳液</a></li>
+          <li><a href="/#categories">防晒隔离</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>了解产品</h3>
+        <ul>
+          <li><a href="/#overview">产品线概览</a></li>
+          <li><a href="/#deepdive">成分解析</a></li>
+          <li><a href="/#guide">选购路径</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#ranking">本周热销榜</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>社区与动态</h3>
+        <ul>
+          <li><a href="/#updates">今日更新</a></li>
+          <li><a href="/#news">产品资讯</a></li>
+          <li><a href="/#comments">用户反馈</a></li>
+          <li><a href="/#related">相关方向</a></li>
+          <li><a href="/#featured">精选单品</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 亚韩产品 · 本站内容为产品信息整理，功效描述以实际配方为准</span>
+      <span>数据更新日期：2026-11-25</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var form = document.querySelector('.search-box');
+  var input = document.getElementById('searchInput');
+  var grid = document.getElementById('cardGrid');
+  var noResult = document.getElementById('noResult');
+  var cards = grid ? Array.prototype.slice.call(grid.querySelectorAll('.card')) : [];
+
+  window.doSearch = function(e){
+    if(e) e.preventDefault();
+    var kw = (input.value || '').trim().toLowerCase();
+    if(!kw){
+      cards.forEach(function(c){ c.style.display = ''; });
+      noResult.classList.remove('show');
+      return false;
+    }
+    var hit = 0;
+    cards.forEach(function(c){
+      var text = (c.getAttribute('data-name') || '') + ' ' + c.textContent.toLowerCase();
+      var match = text.toLowerCase().indexOf(kw) > -1;
+      c.style.display = match ? '' : 'none';
+      if(match) hit++;
+    });
+    if(hit === 0){ noResult.classList.add('show'); } else { noResult.classList.remove('show'); }
+    var featured = document.getElementById('featured');
+    if(featured){ featured.scrollIntoView({behavior:'smooth', block:'start'}); }
+    return false;
+  };
+
+  if(input){
+    input.addEventListener('input', function(){
+      if(input.value.trim() === ''){
+        cards.forEach(function(c){ c.style.display = ''; });
+        noResult.classList.remove('show');
+      }
+    });
+  }
+})();
+</script>
+
+</body>
+                         </html>
